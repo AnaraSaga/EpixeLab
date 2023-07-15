@@ -81,15 +81,19 @@ h1 {
     margin-right: 20px;
 }
 
-.svg  p {
-    
+.name_services p {
     margin: 20px auto;
     text-align: center;
 }
 
-p + p {
+/* 
+.name {
+}
+
+.services {
 
 }
+ */
 
 .grid_table {
     margin-top: 40px;
@@ -107,3 +111,19 @@ p + p {
 
 }
 
+/* Footer */
+footer {
+    margin-top: 50px;
+    height: 200px;
+    display: grid;
+    grid-template-columns: 20% 40% 40%;
+    column-gap: 20px;
+    
+}
+
+.right_footer {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+
+}

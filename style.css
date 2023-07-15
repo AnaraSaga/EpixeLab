@@ -1,20 +1,28 @@
 body {
-    margin: 0;
+    margin: 0 40px;
     padding: 0;
     box-sizing: border-box;
 }
 
+.btn {
+    width: 162px;
+    height: 48px;
+    border-radius: 10px;
+    border: none;
+    background-color: #F60;
+    color:#fff;
+}
+
 /* Header */
 header {
-    margin: 20px 0;
-    padding: 6px;
-    width: 90%;
-    height: 60px;
-    border: 2px solid black;
+    margin: 30px 0;
+    /* padding: 6px; */
+    /* width: 100%; */
+    border: 2px solid black;    /* delete border*/ 
     display: grid;
-    grid-template-rows: 1;
-    grid-template-columns: 0.8fr 1.5fr 0.6fr;
-    column-gap: 20px;
+    grid-template-rows: 60px;
+    grid-template-columns: 33% 33% 34%;
+    
     /* font-family: ; */
     font-size: 14;
     font-weight: 500;
@@ -26,10 +34,9 @@ header > img {
 }
 
 .center_header {
-    margin: 14px 0;
     width: 100%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-content: center;
     flex-wrap: nowrap;
 }
@@ -40,15 +47,63 @@ header > img {
     flex-wrap: nowrap;
 }
 
-.right_header > input {
+#button {
     width: 120px;
-    height: 48px;
-    border-radius: 10px;
-    border: none;
-    background-color: #F60;
-    color:#fff;
+    margin-left: 20px;
 }
 
-.right_header > div {
-    margin: 15px auto;
+/* Main */
+.intro {
+    height: 620px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }
+
+.left_intro {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    color: #0B1B35;
+    /* font-family: Ageo; */
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 850;
+    line-height: 81px; 
+}
+.start {
+    display: flex;
+    
+}
+
+.start > input {
+    margin-right: 20px;
+}
+
+.svg  p {
+    
+    margin: 20px auto;
+    text-align: center;
+}
+
+p + p {
+
+}
+
+.grid_table {
+    margin-top: 40px;
+    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 50px;
+    
+}
+
+.grid {
+    border-radius: 28px;
+    background: #FFF;
+    box-shadow: 0px 2.767256498336792px 2.2138051986694336px 0px rgba(0, 0, 0, 0.02), 0px 6.650102138519287px 5.32008171081543px 0px rgba(0, 0, 0, 0.03), 0px 12.521552085876465px 10.017241477966309px 0px rgba(0, 0, 0, 0.04), 0px 22.3363094329834px 17.869047164916992px 0px rgba(0, 0, 0, 0.04), 0px 41.777610778808594px 33.422088623046875px 0px rgba(0, 0, 0, 0.05), 0px 100px 80px 0px rgba(0, 0, 0, 0.07);
+
+}
+

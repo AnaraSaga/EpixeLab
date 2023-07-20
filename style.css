@@ -14,8 +14,7 @@ body {
 }
 
 .ageo_font {
-    font-family: 'Ageo Personal Use', sans-serif;                                              
-    font-size: 14;
+    font-family: 'Ageo Personal Use' sans-serif;                                  font-size: 14;
     font-weight: 500;
 }
 
@@ -95,13 +94,12 @@ h1 {
 
 .intro > img {
     width: 600px;
-    height: 100%;
+    /* height: 100%; */
     object-fit: contain; 
  }
 
 #name, #testmonials, #team {
     margin: 10px auto;
-    /* padding-top: 10px; */
     text-align: center;
     color: #8A898E;
     font-weight: 700;
@@ -123,8 +121,7 @@ h1 {
     height: 480px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    column-gap: 50px;
-    
+    column-gap: 50px; 
 }
 
 .grid {
@@ -177,8 +174,7 @@ h1 {
 .left_component_cont > p {
     color: var(--colors-text, rgba(21, 20, 57, 0.40));    font-size: 16px;
     font-weight: 400;
-    line-height: 26px; 
-    
+    line-height: 26px;  
 }
 
 .explore_btn {
@@ -195,7 +191,6 @@ h1 {
 .client_grid {
     margin-top: 50px;
     padding: 10px 40px;
-    /* width: 70%; */
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
@@ -220,8 +215,7 @@ h1 {
     color: #0B1B35;
     font-size: 18px;
     font-weight: 500;
-    line-height: 28px;
-    
+    line-height: 28px; 
 }
 
 .client_name {
